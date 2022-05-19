@@ -17,12 +17,12 @@ public class Calculator {
         return x1 / x2;
     }
 
-    public long div(long x1, long x2) {
-        return x1 / x2;
+    public double div(long x1, long x2) {
+        return (double) x1 / x2;
     }
 
-    public int div(int x1, int x2) {
-        return x1 / x2;
+    public double div(int x1, int x2) {
+        return (double) x1 / x2;
     }
 
     public double multp(double x1, double x2) {
