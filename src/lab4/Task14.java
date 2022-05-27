@@ -15,8 +15,6 @@ public class Task14 {
         int b = scanner.nextInt();
         System.out.println("Enter value c:");
         int c = scanner.nextInt();
-        if (b > a && c > b) {
-            System.out.println("true");
-        }
+        System.out.println(b > a && c > b);
     }
 }

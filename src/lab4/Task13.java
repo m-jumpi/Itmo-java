@@ -15,8 +15,6 @@ public class Task13 {
         int b = scanner.nextInt();
         System.out.println("Enter value c:");
         int c = scanner.nextInt();
-        if (a + b == c) {
-            System.out.println("true");
-        }
+        System.out.println(a + b == c);
     }
 }

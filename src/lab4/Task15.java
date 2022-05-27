@@ -9,8 +9,6 @@ public class Task15 {
     }
 
     public static void containThree(int[] intArray) {
-        if (intArray[0] == 3 || intArray[intArray.length - 1] == 3) {
-            System.out.println("true");
-        }
+        System.out.println(intArray[0] == 3 || intArray[intArray.length - 1] == 3);
     }
 }
