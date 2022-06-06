@@ -3,25 +3,19 @@ package lab6.Task5;
 import java.util.Scanner;
 
 public class Parent {
-    Scanner scanner = new Scanner(System.in);
-    public String name;
+    private Scanner scanner = new Scanner(System.in);
     public int age;
 
-    public void name() {
-        System.out.println("Enter you name: ");
-        this.name = scanner.next();
+    public String getScanner() {
+        return scanner.next();
     }
 
-    public void age() {
+    public void field() {
         System.out.println("Enter you age: ");
         this.age = scanner.nextInt();
     }
 
-    @Override
-    public String toString() {
-        return "Parent{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+    public void getInfo() {
+        System.out.println("Age: " + age);
     }
 }

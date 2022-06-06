@@ -9,7 +9,7 @@ public class Client extends Human {
     }
 
     @Override
-    String getInfo() {
+    public String getInfo() {
         return "Client{" +
                 "name='" + super.getName() + '\'' +
                 ", lastname='" + super.getLastname() + '\'' +

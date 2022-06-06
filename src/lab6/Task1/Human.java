@@ -19,5 +19,5 @@ public abstract class Human implements Greeting {
         return lastname;
     }
 
-    abstract String getInfo();
+    protected abstract String getInfo();
 }

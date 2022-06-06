@@ -9,7 +9,7 @@ public class Employee extends Human {
     }
 
     @Override
-    String getInfo() {
+    public String getInfo() {
         return "Employee{" +
                 "name='" + super.getName() + '\'' +
                 ", lastname='" + super.getLastname() + '\'' +
