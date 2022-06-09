@@ -51,11 +51,11 @@ public class Main {
         File file3 = new File("files/file3.txt");
 
         BufferedWriter writer = null;
-        String input;
+        String input="";
         try (BufferedReader reader = new BufferedReader(new FileReader(file1))) {
             writer = new BufferedWriter(new FileWriter(file3));
             while ((input = reader.readLine()) != null) {
-                writer.append(input + "\n");
+                writer.write(input + "\n");
             }
         } catch (IOException io) {
             System.out.println("Error: " + io.getMessage());

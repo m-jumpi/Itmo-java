@@ -18,15 +18,7 @@ public class Task1 {
         System.out.println(doubleFree(list));
     }
 
-    public static List<String> doubleFree(List<String> strings) {
-        Set<String> set = new HashSet<>();
-        for (String string : strings) {
-            set.add(string);
-        }
-        strings.clear();
-        for (String string : set) {
-            strings.add(string);
-        }
-        return strings;
+    public static Set<String> doubleFree(List<String> strings) {
+        return new HashSet<>(strings);
     }
 }
